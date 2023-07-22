@@ -1,11 +1,26 @@
 body {
-    color: yellow;
-    background-color: black;
+    color: black;
+    background-color: greenyellow;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     margin: 0;
     padding: 0;
+}
+
+#Cabecera {
+    background: blue;
+    box-shadow: 0px 2px 20px 0px black;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#Cabecera #tagline {
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
 }
 
 #Container {
